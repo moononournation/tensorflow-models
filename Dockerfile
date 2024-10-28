@@ -18,7 +18,7 @@ RUN set -eux; \
 RUN pip install --upgrade pip
 
 # install tensorflow
-RUN pip install tensorflow
+RUN pip install tensorflow==2.17.0
 RUN pip install flask mtcnn numpy protobuf
 
 # git clone --depth 1 https://github.com/tensorflow/models
